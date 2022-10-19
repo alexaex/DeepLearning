@@ -1,0 +1,9 @@
+Linear Model including:
+1. Linear Regression:
+    1)Build the  linear model: Y = XW+B;
+    2)Tensor shape;
+    3)What is MSE Loss or L1 loss;
+    4)How to get the grad of MSELoss by backward;
+    5)how to use SGD optimzer;
+    6)Batch_size and Learning_rate setting;
+2. Softmax classfication:
