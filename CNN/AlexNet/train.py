@@ -4,7 +4,7 @@ from torch import optim
 import matplotlib.pyplot as plt
 import time
 import torchinfo
-import argparse
+
 def evaluate_accuracy(net, val_iter, device=None):
     if not device:
         device = next(iter(net.parameters())).device
